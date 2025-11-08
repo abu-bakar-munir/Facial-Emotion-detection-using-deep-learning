@@ -1,1 +1,5 @@
 # Facial-Emotion-detection-using-deep-learning
+
+
+
+This project implements a **Facial Emotion Detection system** using a **Convolutional Neural Network (CNN)** that is a part of deep learning trained on the **Face Expression Recognition Dataset** from Kaggle. The model classifies grayscale facial images into **seven emotions**: angry, disgust, fear, happy, neutral, sad, and surprise. The images are preprocessed using data augmentation techniques like rotation, zoom, shift, and horizontal flip to improve generalization. The CNN architecture consists of multiple convolutional layers with **BatchNormalization, MaxPooling, and Dropout**, followed by fully connected layers and a **softmax output**. The model is trained using the **Adam optimizer** with categorical crossentropy loss and evaluated using accuracy, classification report, and confusion matrix. The system can predict emotions from new images, displaying both the predicted class and confidence score, and the trained model is saved as `facial_emotion_detection_model.h5` for future use or deployment.
